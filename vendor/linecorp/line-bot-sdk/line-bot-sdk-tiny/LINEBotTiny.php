@@ -106,15 +106,19 @@ class LINEBotTiny
         ));
 
 //        $response = file_get_contents('https://api.line.me/v2/bot/message/reply', false, $context);
+
+
         $ch = curl_init();
-        $timeout = 5; // set to zero for no timeout
-        curl_setopt ($ch, CURLOPT_URL,'https://api.line.me/v2/bot/message/reply' );
-        curl_setopt ($ch, CURLOPT_RETURNTRANSFER, 1);
-        curl_setopt ($ch, CURLOPT_HTTPHEADER, $context);
-        curl_setopt ($ch, CURLOPT_CONNECTTIMEOUT, $timeout);
+        curl_setopt($ch, CURLOPT_URL, 'https://api.line.me/v2/bot/message/reply');
+        curl_setopt($ch, CURLOPT_POST, 1);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($message));
+        curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 60);
+        curl_setopt($ch, CURLOPT_TIMEOUT, 60);
+        curl_setopt($ch, CURLOPT_HTTPHEADER, array("Content-type:  application/json"));
+
         $response = curl_exec($ch);
         curl_close($ch);
-
 
         if (strpos($http_response_header[0], '200') === false) {
             http_response_code(500);
