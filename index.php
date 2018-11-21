@@ -18,6 +18,15 @@ function messageContent($event, $text){
     ];
 }
 
+$curl_handle=curl_init();
+curl_setopt($curl_handle, CURLOPT_URL,'http://###.##.##.##/mp/get?mpsrc=http://mybucket.s3.amazonaws.com/11111.mpg&mpaction=convert format=flv');
+curl_setopt($curl_handle, CURLOPT_CONNECTTIMEOUT, 2);
+curl_setopt($curl_handle, CURLOPT_RETURNTRANSFER, 1);
+curl_setopt($curl_handle, CURLOPT_USERAGENT, 'Your application name');
+$query = curl_exec($curl_handle);
+curl_close($curl_handle);
+
+
 $client = new LINEBotTiny('oPJj2g+gPNOvLAtQz0CWyY6dkj/lIw86ZB2MtqPoWp5jN0EZDF4tXiIdR32FbpGYGQPvI6Wtxg0IwBPEyzUMyeVJdhhCyZo1cP1z+HQ/UV+9fHbbsUrueMZqrzMYkMNNuxoDTJXKWzM1PY6LurByvwdB04t89/1O/w1cDnyilFU=',
     'dcd4d682871e3013f2fe9f0cd14a3b0c');
 foreach ($client->parseEvents() as $event) {
