@@ -4,7 +4,7 @@ define("LINE_MESSAGING_API_CHANNEL_TOKEN",
     'oPJj2g+gPNOvLAtQz0CWyY6dkj/lIw86ZB2MtqPoWp5jN0EZDF4tXiIdR32FbpGYGQPvI6Wtxg0IwBPEyzUMyeVJdhhCyZo1cP1z+HQ/UV+9fHbbsUrueMZqrzMYkMNNuxoDTJXKWzM1PY6LurByvwdB04t89/1O/w1cDnyilFU=');
 
 require __DIR__."/vendor/autoload.php";
-require_once (__DIR__.'/vendor /linecorp/line-bot-sdk/line-bot-sdk-tiny/LINEBotTiny.php');
+require_once (__DIR__.'/vendor/linecorp/line-bot-sdk/line-bot-sdk-tiny/LINEBotTiny.php');
 
 function messageContent($event, $text){
     return [
