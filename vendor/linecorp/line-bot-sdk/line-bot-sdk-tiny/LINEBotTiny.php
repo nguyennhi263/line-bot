@@ -118,13 +118,12 @@ class LINEBotTiny
         curl_setopt($ch, CURLOPT_HTTPHEADER, $header);
 
         $response = curl_exec($ch);
-
+        curl_close($ch);
 
         if (strpos($http_response_header[0], '200') === false) {
             http_response_code(500);
             error_log("Request failed: " . $response);
         }
-        curl_close($ch);
     }
 
     private function sign($body)
