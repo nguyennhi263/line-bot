@@ -18,7 +18,18 @@ foreach ($client->parseEvents() as $event) {
                      * then remove kanji , etc */
                     //$model_nm = Logic::validateTextSearch($request);
                     $model_nm = $request;
-                    $client->replyMessage($request);
+                    $client->replyMessage(getText($event),$request);
             }
     }
+}
+function getText($event, $text){
+    return array(
+        'replyToken' => $event['replyToken'],
+        'messages' => array(
+            array(
+                'type' => 'text',
+                'text' => $text
+            )
+        )
+    );
 }
