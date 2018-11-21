@@ -18,7 +18,7 @@ foreach ($client->parseEvents() as $event) {
                      * then remove kanji , etc */
                     //$model_nm = Logic::validateTextSearch($request);
                     $model_nm = $request;
-                    $client->replyMessage(getText($event),$request);
+                    $client->replyMessage(getText($event,$model_nm));
             }
     }
 }
