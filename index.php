@@ -1,136 +1,44 @@
-{
-"type": "bubble",
-"header": {
-"type": "box",
-"layout": "vertical",
-"contents": [
-{
-"type": "text",
-"text": "FIFA World Cup 2018",
-"size": "xl",
-"weight": "bold"
+<?php // callback.php
+require "vendor / autoload.php";
+require_once ('vendor / linecorp / line-bot-sdk / line-bot-sdk-tiny / LINEBotTiny.php');
+$access_token = 'oPJj2g+gPNOvLAtQz0CWyY6dkj/lIw86ZB2MtqPoWp5jN0EZDF4tXiIdR32FbpGYGQPvI6Wtxg0IwBPEyzUMyeVJdhhCyZo1cP1z+HQ/UV+9fHbbsUrueMZqrzMYkMNNuxoDTJXKWzM1PY6LurByvwdB04t89/1O/w1cDnyilFU=';
+
+// Get POST body content
+$content = file_get_contents ('php: // input');
+// Parse JSON
+$events = json_decode ($content, true);
+// Validate parsed JSON data
+if (! Is_null ($events ['events'])) {
+// Loop through each event
+    foreach ($events ['events'] as $event) {
+// Reply only when message is in 'text'
+        $event ['type'] == 'message' && $event ['message'] ['type'] == 'text';
+// Get text sent
+        $text = $event ['source'] ['userId'];
+// Get replyToken
+        $replyToken = $event ['replyToken'];
+// Build message to reply back
+        $messages = [
+            'type' => 'text',
+            'text' => $text
+        ];
+// Make a POST Request for Messaging API to reply to sender
+        $url = 'https://api.line.me/v2/bot/message/reply';
+        $data = [
+            'replyToken' => $replyToken,
+            'messages' => [$messages]
+        ];
+        $post = json_encode($data);
+        $headers = array('Content-Type: application / json', 'Authorization: Bearer' . $access_token);
+        $ch = curl_init($url);
+        curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
+        curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+        curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
+        $result = curl_exec($ch);
+        curl_close($ch);
+        echo $result . "\ r \ n";
+    }
 }
-]
-},
-"hero": {
-"type": "image",
-"url": "https://sitthi.me:3807/static/fifa.jpg",
-"size": "full",
-"aspectRatio": "20:13",
-"aspectMode": "cover"
-},
-"body": {
-"type": "box",
-"layout": "vertical",
-"spacing": "md",
-"contents": [
-{
-"type": "box",
-"layout": "horizontal",
-"spacing": "sm",
-"contents": [
-{
-"type": "text",
-"text": "LIVE !",
-"size": "lg",
-"color": "#555555",
-"weight": "bold",
-"align": "center"
-}
-]
-},
-{
-"type": "button",
-"style": "primary",
-"action": {
-"type": "postback",
-"label": "Portugal  1 : 0  Morocco",
-"displayText": "Live Report !!",
-"data": "LIVE"
-}
-},
-{
-"type": "separator",
-"margin": "lg"
-},
-{
-"type": "box",
-"layout": "vertical",
-"margin": "lg",
-"spacing": "sm",
-"contents": [
-{
-"type": "box",
-"layout": "horizontal",
-"spacing": "sm",
-"contents": [
-{
-"type": "button",
-"style": "primary",
-"action": {
-"type": "postback",
-"label": "Last Match",
-"displayText": "Last Match",
-"data": "LAST"
-}
-},
-{
-"type": "button",
-"style": "primary",
-"action": {
-"type": "postback",
-"label": "Next Match",
-"displayText": "Next Match",
-"data": "NEXT"
-}
-}
-]
-},
-{
-"type": "box",
-"layout": "horizontal",
-"spacing": "sm",
-"contents": [
-{
-"type": "button",
-"style": "primary",
-"action": {
-"type": "postback",
-"label": "Schedule",
-"displayText": "Schedule",
-"data": "SCHEDULE"
-}
-},
-{
-"type": "button",
-"style": "primary",
-"action": {
-"type": "postback",
-"label": "Table",
-"displayText": "Table",
-"data": "TABLE"
-}
-}
-]
-}
-]
-}
-]
-},
-"footer": {
-"type": "box",
-"layout": "vertical",
-"contents": [
-{
-"type": "button",
-"margin": "sm",
-"action": {
-"type": "uri",
-"label": "View Source",
-"uri": "https://sitthi.me:3807/downloaded/ba5f784d837540dfb40df2d531d7519c.json"
-},
-"style": "secondary"
-}
-]
-}
-}
+echo "OK";

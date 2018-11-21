@@ -2,6 +2,475 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b79bb75-f477-4374-a8b6-3d739d449a85" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/.github/ISSUE_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/CODE_OF_CONDUCT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/HACKING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/devtool/check_copyright.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.Constant.ActionType.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.Constant.EventSourceType.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.Constant.Flex.ComponentAlign.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.Constant.Flex.ComponentButtonHeight.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.Constant.Flex.ComponentButtonStyle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.Constant.Flex.ComponentFontSize.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.Constant.Flex.ComponentFontWeight.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.Constant.Flex.ComponentGravity.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.Constant.Flex.ComponentIconAspectRatio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.Constant.Flex.ComponentIconSize.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.Constant.Flex.ComponentImageAspectMode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.Constant.Flex.ComponentImageAspectRatio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.Constant.Flex.ComponentImageSize.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.Constant.Flex.ComponentLayout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.Constant.Flex.ComponentMargin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.Constant.Flex.ComponentSpaceSize.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.Constant.Flex.ComponentSpacing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.Constant.Flex.ComponentType.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.Constant.Flex.ContainerDirection.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.Constant.Flex.ContainerType.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.Constant.HTTPHeader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.Constant.MessageType.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.Constant.Meta.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.Constant.TemplateType.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.Event.AccountLinkEvent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.Event.BaseEvent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.Event.BeaconDetectionEvent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.Event.FollowEvent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.Event.JoinEvent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.Event.LeaveEvent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.Event.MessageEvent.AudioMessage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.Event.MessageEvent.FileMessage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.Event.MessageEvent.ImageMessage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.Event.MessageEvent.LocationMessage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.Event.MessageEvent.StickerMessage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.Event.MessageEvent.TextMessage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.Event.MessageEvent.UnknownMessage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.Event.MessageEvent.VideoMessage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.Event.MessageEvent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.Event.Parser.EventRequestParser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.Event.PostbackEvent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.Event.UnfollowEvent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.Event.UnknownEvent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.HTTPClient.Curl.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.HTTPClient.CurlHTTPClient.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.ImagemapActionBuilder.AreaBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.ImagemapActionBuilder.ImagemapMessageActionBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.ImagemapActionBuilder.ImagemapUriActionBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.MessageBuilder.AudioMessageBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.MessageBuilder.Flex.BlockStyleBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.MessageBuilder.Flex.BubbleStylesBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.MessageBuilder.Flex.ComponentBuilder.BoxComponentBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.MessageBuilder.Flex.ComponentBuilder.ButtonComponentBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.MessageBuilder.Flex.ComponentBuilder.FillerComponentBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.MessageBuilder.Flex.ComponentBuilder.IconComponentBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.MessageBuilder.Flex.ComponentBuilder.ImageComponentBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.MessageBuilder.Flex.ComponentBuilder.SeparatorComponentBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.MessageBuilder.Flex.ComponentBuilder.SpacerComponentBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.MessageBuilder.Flex.ComponentBuilder.TextComponentBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.MessageBuilder.Flex.ContainerBuilder.BubbleContainerBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.MessageBuilder.Flex.ContainerBuilder.CarouselContainerBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.MessageBuilder.FlexMessageBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.MessageBuilder.ImageMessageBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.MessageBuilder.Imagemap.BaseSizeBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.MessageBuilder.ImagemapMessageBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.MessageBuilder.LocationMessageBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.MessageBuilder.MultiMessageBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.MessageBuilder.RawMessageBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.MessageBuilder.StickerMessageBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.MessageBuilder.TemplateBuilder.ButtonTemplateBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.MessageBuilder.TemplateBuilder.CarouselColumnTemplateBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.MessageBuilder.TemplateBuilder.CarouselTemplateBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.MessageBuilder.TemplateBuilder.ConfirmTemplateBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.MessageBuilder.TemplateBuilder.ImageCarouselColumnTemplateBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.MessageBuilder.TemplateBuilder.ImageCarouselTemplateBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.MessageBuilder.TemplateMessageBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.MessageBuilder.TextMessageBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.MessageBuilder.VideoMessageBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.QuickReplyBuilder.ButtonBuilder.QuickReplyButtonBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.QuickReplyBuilder.QuickReplyMessageBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.Response.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.RichMenuBuilder.RichMenuAreaBoundsBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.RichMenuBuilder.RichMenuAreaBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.RichMenuBuilder.RichMenuSizeBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.RichMenuBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.SignatureValidator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.TemplateActionBuilder.CameraRollTemplateActionBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.TemplateActionBuilder.CameraTemplateActionBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.TemplateActionBuilder.DatetimePickerTemplateActionBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.TemplateActionBuilder.LocationTemplateActionBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.TemplateActionBuilder.MessageTemplateActionBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.TemplateActionBuilder.PostbackTemplateActionBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.TemplateActionBuilder.UriTemplateActionBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.Util.BuildUtil.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/class-LINE.LINEBot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/classes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/elementlist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/exception-Exception.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/exception-LINE.LINEBot.Exception.CurlExecutionException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/exception-LINE.LINEBot.Exception.InvalidEventRequestException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/exception-LINE.LINEBot.Exception.InvalidEventSourceException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/exception-LINE.LINEBot.Exception.InvalidSignatureException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/exceptions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/interface-LINE.LINEBot.HTTPClient.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/interface-LINE.LINEBot.ImagemapActionBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/interface-LINE.LINEBot.MessageBuilder.Flex.ComponentBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/interface-LINE.LINEBot.MessageBuilder.Flex.ContainerBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/interface-LINE.LINEBot.MessageBuilder.TemplateBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/interface-LINE.LINEBot.MessageBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/interface-LINE.LINEBot.QuickReplyBuilder.QuickReplyButtonBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/interface-LINE.LINEBot.QuickReplyBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/interface-LINE.LINEBot.TemplateActionBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/interface-Throwable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/interfaces.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/namespace-LINE.LINEBot.Constant.Flex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/namespace-LINE.LINEBot.Constant.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/namespace-LINE.LINEBot.Event.MessageEvent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/namespace-LINE.LINEBot.Event.Parser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/namespace-LINE.LINEBot.Event.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/namespace-LINE.LINEBot.Exception.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/namespace-LINE.LINEBot.HTTPClient.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/namespace-LINE.LINEBot.ImagemapActionBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/namespace-LINE.LINEBot.MessageBuilder.Flex.ComponentBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/namespace-LINE.LINEBot.MessageBuilder.Flex.ContainerBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/namespace-LINE.LINEBot.MessageBuilder.Flex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/namespace-LINE.LINEBot.MessageBuilder.Imagemap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/namespace-LINE.LINEBot.MessageBuilder.TemplateBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/namespace-LINE.LINEBot.MessageBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/namespace-LINE.LINEBot.QuickReplyBuilder.ButtonBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/namespace-LINE.LINEBot.QuickReplyBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/namespace-LINE.LINEBot.RichMenuBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/namespace-LINE.LINEBot.TemplateActionBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/namespace-LINE.LINEBot.Util.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/namespace-LINE.LINEBot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/namespace-LINE.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/namespace-none.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/resources/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/resources/footer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/resources/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/resources/jquery-ui-1.12.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/resources/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/resources/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.Constant.ActionType.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.Constant.EventSourceType.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.Constant.Flex.ComponentAlign.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.Constant.Flex.ComponentButtonHeight.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.Constant.Flex.ComponentButtonStyle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.Constant.Flex.ComponentFontSize.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.Constant.Flex.ComponentFontWeight.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.Constant.Flex.ComponentGravity.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.Constant.Flex.ComponentIconAspectRatio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.Constant.Flex.ComponentIconSize.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.Constant.Flex.ComponentImageAspectMode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.Constant.Flex.ComponentImageAspectRatio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.Constant.Flex.ComponentImageSize.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.Constant.Flex.ComponentLayout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.Constant.Flex.ComponentMargin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.Constant.Flex.ComponentSpaceSize.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.Constant.Flex.ComponentSpacing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.Constant.Flex.ComponentType.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.Constant.Flex.ContainerDirection.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.Constant.Flex.ContainerType.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.Constant.HTTPHeader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.Constant.MessageType.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.Constant.Meta.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.Constant.TemplateType.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.Event.AccountLinkEvent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.Event.BaseEvent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.Event.BeaconDetectionEvent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.Event.FollowEvent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.Event.JoinEvent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.Event.LeaveEvent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.Event.MessageEvent.AudioMessage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.Event.MessageEvent.FileMessage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.Event.MessageEvent.ImageMessage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.Event.MessageEvent.LocationMessage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.Event.MessageEvent.StickerMessage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.Event.MessageEvent.TextMessage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.Event.MessageEvent.UnknownMessage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.Event.MessageEvent.VideoMessage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.Event.MessageEvent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.Event.Parser.EventRequestParser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.Event.PostbackEvent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.Event.UnfollowEvent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.Event.UnknownEvent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.HTTPClient.Curl.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.HTTPClient.CurlHTTPClient.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.ImagemapActionBuilder.AreaBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.ImagemapActionBuilder.ImagemapMessageActionBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.ImagemapActionBuilder.ImagemapUriActionBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.MessageBuilder.AudioMessageBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.MessageBuilder.Flex.BlockStyleBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.MessageBuilder.Flex.BubbleStylesBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.MessageBuilder.Flex.ComponentBuilder.BoxComponentBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.MessageBuilder.Flex.ComponentBuilder.ButtonComponentBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.MessageBuilder.Flex.ComponentBuilder.FillerComponentBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.MessageBuilder.Flex.ComponentBuilder.IconComponentBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.MessageBuilder.Flex.ComponentBuilder.ImageComponentBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.MessageBuilder.Flex.ComponentBuilder.SeparatorComponentBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.MessageBuilder.Flex.ComponentBuilder.SpacerComponentBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.MessageBuilder.Flex.ComponentBuilder.TextComponentBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.MessageBuilder.Flex.ContainerBuilder.BubbleContainerBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.MessageBuilder.Flex.ContainerBuilder.CarouselContainerBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.MessageBuilder.FlexMessageBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.MessageBuilder.ImageMessageBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.MessageBuilder.Imagemap.BaseSizeBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.MessageBuilder.ImagemapMessageBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.MessageBuilder.LocationMessageBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.MessageBuilder.MultiMessageBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.MessageBuilder.RawMessageBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.MessageBuilder.StickerMessageBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.MessageBuilder.TemplateBuilder.ButtonTemplateBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.MessageBuilder.TemplateBuilder.CarouselColumnTemplateBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.MessageBuilder.TemplateBuilder.CarouselTemplateBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.MessageBuilder.TemplateBuilder.ConfirmTemplateBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.MessageBuilder.TemplateBuilder.ImageCarouselColumnTemplateBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.MessageBuilder.TemplateBuilder.ImageCarouselTemplateBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.MessageBuilder.TemplateMessageBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.MessageBuilder.TextMessageBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.MessageBuilder.VideoMessageBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.QuickReplyBuilder.ButtonBuilder.QuickReplyButtonBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.QuickReplyBuilder.QuickReplyMessageBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.Response.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.RichMenuBuilder.RichMenuAreaBoundsBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.RichMenuBuilder.RichMenuAreaBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.RichMenuBuilder.RichMenuSizeBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.RichMenuBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.SignatureValidator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.TemplateActionBuilder.CameraRollTemplateActionBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.TemplateActionBuilder.CameraTemplateActionBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.TemplateActionBuilder.DatetimePickerTemplateActionBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.TemplateActionBuilder.LocationTemplateActionBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.TemplateActionBuilder.MessageTemplateActionBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.TemplateActionBuilder.PostbackTemplateActionBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.TemplateActionBuilder.UriTemplateActionBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.Util.BuildUtil.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-class-LINE.LINEBot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-exception-LINE.LINEBot.Exception.CurlExecutionException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-exception-LINE.LINEBot.Exception.InvalidEventRequestException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-exception-LINE.LINEBot.Exception.InvalidEventSourceException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-exception-LINE.LINEBot.Exception.InvalidSignatureException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-interface-LINE.LINEBot.HTTPClient.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-interface-LINE.LINEBot.ImagemapActionBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-interface-LINE.LINEBot.MessageBuilder.Flex.ComponentBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-interface-LINE.LINEBot.MessageBuilder.Flex.ContainerBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-interface-LINE.LINEBot.MessageBuilder.TemplateBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-interface-LINE.LINEBot.MessageBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-interface-LINE.LINEBot.QuickReplyBuilder.QuickReplyButtonBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-interface-LINE.LINEBot.QuickReplyBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/docs/source-interface-LINE.LINEBot.TemplateActionBuilder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/examples/EchoBot/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/examples/EchoBot/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/examples/EchoBot/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/examples/EchoBot/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/examples/EchoBot/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/examples/EchoBot/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/examples/EchoBot/src/LINEBot/EchoBot/Dependency.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/examples/EchoBot/src/LINEBot/EchoBot/Route.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/examples/EchoBot/src/LINEBot/EchoBot/Setting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/examples/KitchenSink/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/examples/KitchenSink/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/examples/KitchenSink/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/examples/KitchenSink/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/examples/KitchenSink/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/examples/KitchenSink/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/examples/KitchenSink/public/static/buttons/1040.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/examples/KitchenSink/public/static/rich/1040" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/examples/KitchenSink/public/static/rich/240" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/examples/KitchenSink/public/static/rich/300" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/examples/KitchenSink/public/static/rich/460" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/examples/KitchenSink/public/static/rich/700" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/examples/KitchenSink/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/examples/KitchenSink/src/LINEBot/KitchenSink/Dependency.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/examples/KitchenSink/src/LINEBot/KitchenSink/EventHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/examples/KitchenSink/src/LINEBot/KitchenSink/EventHandler/AccountLinkEventHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/examples/KitchenSink/src/LINEBot/KitchenSink/EventHandler/BeaconEventHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/examples/KitchenSink/src/LINEBot/KitchenSink/EventHandler/FollowEventHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/examples/KitchenSink/src/LINEBot/KitchenSink/EventHandler/JoinEventHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/examples/KitchenSink/src/LINEBot/KitchenSink/EventHandler/LeaveEventHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/examples/KitchenSink/src/LINEBot/KitchenSink/EventHandler/MessageHandler/AudioMessageHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/examples/KitchenSink/src/LINEBot/KitchenSink/EventHandler/MessageHandler/Flex/FlexSampleRestaurant.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/examples/KitchenSink/src/LINEBot/KitchenSink/EventHandler/MessageHandler/Flex/FlexSampleShopping.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/examples/KitchenSink/src/LINEBot/KitchenSink/EventHandler/MessageHandler/ImageMessageHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/examples/KitchenSink/src/LINEBot/KitchenSink/EventHandler/MessageHandler/LocationMessageHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/examples/KitchenSink/src/LINEBot/KitchenSink/EventHandler/MessageHandler/StickerMessageHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/examples/KitchenSink/src/LINEBot/KitchenSink/EventHandler/MessageHandler/TextMessageHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/examples/KitchenSink/src/LINEBot/KitchenSink/EventHandler/MessageHandler/Util/UrlBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/examples/KitchenSink/src/LINEBot/KitchenSink/EventHandler/MessageHandler/VideoMessageHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/examples/KitchenSink/src/LINEBot/KitchenSink/EventHandler/PostbackEventHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/examples/KitchenSink/src/LINEBot/KitchenSink/EventHandler/UnfollowEventHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/examples/KitchenSink/src/LINEBot/KitchenSink/Route.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/examples/KitchenSink/src/LINEBot/KitchenSink/Setting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/line-bot-sdk-tiny/LINEBotTiny.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/line-bot-sdk-tiny/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/line-bot-sdk-tiny/echo_bot.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/phpmd.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/Constant/ActionType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/Constant/EventSourceType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/Constant/Flex/ComponentAlign.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/Constant/Flex/ComponentButtonHeight.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/Constant/Flex/ComponentButtonStyle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/Constant/Flex/ComponentFontSize.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/Constant/Flex/ComponentFontWeight.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/Constant/Flex/ComponentGravity.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/Constant/Flex/ComponentIconAspectRatio.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/Constant/Flex/ComponentIconSize.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/Constant/Flex/ComponentImageAspectMode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/Constant/Flex/ComponentImageAspectRatio.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/Constant/Flex/ComponentImageSize.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/Constant/Flex/ComponentLayout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/Constant/Flex/ComponentMargin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/Constant/Flex/ComponentSpaceSize.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/Constant/Flex/ComponentSpacing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/Constant/Flex/ComponentType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/Constant/Flex/ContainerDirection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/Constant/Flex/ContainerType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/Constant/HTTPHeader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/Constant/MessageType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/Constant/Meta.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/Constant/TemplateType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/Event/AccountLinkEvent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/Event/BaseEvent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/Event/BeaconDetectionEvent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/Event/FollowEvent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/Event/JoinEvent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/Event/LeaveEvent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/Event/MessageEvent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/Event/MessageEvent/AudioMessage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/Event/MessageEvent/FileMessage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/Event/MessageEvent/ImageMessage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/Event/MessageEvent/LocationMessage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/Event/MessageEvent/StickerMessage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/Event/MessageEvent/TextMessage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/Event/MessageEvent/UnknownMessage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/Event/MessageEvent/VideoMessage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/Event/Parser/EventRequestParser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/Event/PostbackEvent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/Event/UnfollowEvent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/Event/UnknownEvent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/Exception/CurlExecutionException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/Exception/InvalidEventRequestException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/Exception/InvalidEventSourceException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/Exception/InvalidSignatureException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/HTTPClient.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/HTTPClient/Curl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/HTTPClient/CurlHTTPClient.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/ImagemapActionBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/ImagemapActionBuilder/AreaBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/ImagemapActionBuilder/ImagemapMessageActionBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/ImagemapActionBuilder/ImagemapUriActionBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/MessageBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/MessageBuilder/AudioMessageBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/MessageBuilder/Flex/BlockStyleBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/MessageBuilder/Flex/BubbleStylesBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/MessageBuilder/Flex/ComponentBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/MessageBuilder/Flex/ComponentBuilder/BoxComponentBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/MessageBuilder/Flex/ComponentBuilder/ButtonComponentBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/MessageBuilder/Flex/ComponentBuilder/FillerComponentBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/MessageBuilder/Flex/ComponentBuilder/IconComponentBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/MessageBuilder/Flex/ComponentBuilder/ImageComponentBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/MessageBuilder/Flex/ComponentBuilder/SeparatorComponentBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/MessageBuilder/Flex/ComponentBuilder/SpacerComponentBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/MessageBuilder/Flex/ComponentBuilder/TextComponentBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/MessageBuilder/Flex/ContainerBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/MessageBuilder/Flex/ContainerBuilder/BubbleContainerBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/MessageBuilder/Flex/ContainerBuilder/CarouselContainerBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/MessageBuilder/FlexMessageBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/MessageBuilder/ImageMessageBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/MessageBuilder/Imagemap/BaseSizeBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/MessageBuilder/ImagemapMessageBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/MessageBuilder/LocationMessageBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/MessageBuilder/MultiMessageBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/MessageBuilder/RawMessageBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/MessageBuilder/StickerMessageBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/MessageBuilder/TemplateBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/MessageBuilder/TemplateBuilder/ButtonTemplateBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/MessageBuilder/TemplateBuilder/CarouselColumnTemplateBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/MessageBuilder/TemplateBuilder/CarouselTemplateBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/MessageBuilder/TemplateBuilder/ConfirmTemplateBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/MessageBuilder/TemplateBuilder/ImageCarouselColumnTemplateBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/MessageBuilder/TemplateBuilder/ImageCarouselTemplateBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/MessageBuilder/TemplateMessageBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/MessageBuilder/TextMessageBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/MessageBuilder/VideoMessageBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/QuickReplyBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/QuickReplyBuilder/ButtonBuilder/QuickReplyButtonBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/QuickReplyBuilder/QuickReplyButtonBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/QuickReplyBuilder/QuickReplyMessageBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/Response.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/RichMenuBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/RichMenuBuilder/RichMenuAreaBoundsBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/RichMenuBuilder/RichMenuAreaBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/RichMenuBuilder/RichMenuSizeBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/SignatureValidator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/TemplateActionBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/TemplateActionBuilder/CameraRollTemplateActionBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/TemplateActionBuilder/CameraTemplateActionBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/TemplateActionBuilder/DatetimePickerTemplateActionBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/TemplateActionBuilder/LocationTemplateActionBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/TemplateActionBuilder/MessageTemplateActionBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/TemplateActionBuilder/PostbackTemplateActionBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/TemplateActionBuilder/UriTemplateActionBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/src/LINEBot/Util/BuildUtil.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/tests/LINEBot/EventRequestParserTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/tests/LINEBot/GetMemberIdsTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/tests/LINEBot/GetMemberProfileTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/tests/LINEBot/GetProfileTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/tests/LINEBot/HTTPClient/CurlHTTPClientTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/tests/LINEBot/MessageBuilder/Flex/BlockStyleBuilderTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/tests/LINEBot/MessageBuilder/Flex/BubbleStylesBuilderTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/tests/LINEBot/MessageBuilder/Flex/ComponentBuilder/BoxComponentBuilderTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/tests/LINEBot/MessageBuilder/Flex/ComponentBuilder/ButtonComponentBuilderTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/tests/LINEBot/MessageBuilder/Flex/ComponentBuilder/FillerComponentBuilderTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/tests/LINEBot/MessageBuilder/Flex/ComponentBuilder/IconComponentBuilderTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/tests/LINEBot/MessageBuilder/Flex/ComponentBuilder/ImageComponentBuilderTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/tests/LINEBot/MessageBuilder/Flex/ComponentBuilder/SeparatorComponentBuilderTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/tests/LINEBot/MessageBuilder/Flex/ComponentBuilder/SpacerComponentBuilderTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/tests/LINEBot/MessageBuilder/Flex/ComponentBuilder/TextComponentBuilderTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/tests/LINEBot/MessageBuilder/Flex/ContainerBuilder/BubbleContainerBuilderTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/tests/LINEBot/MessageBuilder/Flex/ContainerBuilder/CarouselContainerBuilderTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/tests/LINEBot/MessageBuilder/TemplateBuilder/ButtonTemplateBuilderTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/tests/LINEBot/MessageBuilder/TemplateBuilder/CarouselColumnTemplateBuilderTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/tests/LINEBot/MessageBuilder/TemplateBuilder/CarouselTemplateBuilderTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/tests/LINEBot/MulticastTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/tests/LINEBot/QuickReplyTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/tests/LINEBot/ResponseTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/tests/LINEBot/RichMenuTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/tests/LINEBot/SendAudioTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/tests/LINEBot/SendFlexTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/tests/LINEBot/SendImageTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/tests/LINEBot/SendImagemapTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/tests/LINEBot/SendLocationTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/tests/LINEBot/SendMultiMessageTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/tests/LINEBot/SendStickerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/tests/LINEBot/SendTemplateTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/tests/LINEBot/SendTextTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/tests/LINEBot/SendVideoTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/tests/LINEBot/SignatureValidatorTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/tests/LINEBot/Util/DummyHttpClient.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/tests/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/tests/req_mirror.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/line-bot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/line-bot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -10,45 +479,77 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="2079624565">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="php" value="1" />
+          <entry key="json" value="1" />
+          <entry key="php" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PHP" value="1" />
+          <entry key="JSON" value="1" />
+          <entry key="PHP" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="5" />
+          <entry key="php" value="35" />
+          <entry key="txt" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="5" />
+          <entry key="PHP" value="35" />
+          <entry key="PLAIN_TEXT" value="9" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" selection-start-column="5" selection-end-column="5" />
+            <state relative-caret-position="318">
+              <caret line="35" column="52" lean-forward="true" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/examples/EchoBot/src/LINEBot/EchoBot/Route.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/line-bot-sdk-tiny/LINEBotTiny.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="92" column="32" selection-start-line="92" selection-start-column="20" selection-end-line="92" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composer.json">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -69,6 +570,12 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/linecorp/line-bot-sdk" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="974" />
@@ -87,6 +594,82 @@
               <item name="line-bot" type="b2602c69:ProjectViewProjectNode" />
               <item name="line-bot" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="line-bot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="line-bot" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="line-bot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="line-bot" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="linecorp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="line-bot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="line-bot" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="linecorp" type="462c0819:PsiDirectoryNode" />
+              <item name="line-bot-sdk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="line-bot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="line-bot" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="linecorp" type="462c0819:PsiDirectoryNode" />
+              <item name="line-bot-sdk" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="line-bot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="line-bot" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="linecorp" type="462c0819:PsiDirectoryNode" />
+              <item name="line-bot-sdk" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="EchoBot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="line-bot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="line-bot" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="linecorp" type="462c0819:PsiDirectoryNode" />
+              <item name="line-bot-sdk" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="EchoBot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="line-bot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="line-bot" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="linecorp" type="462c0819:PsiDirectoryNode" />
+              <item name="line-bot-sdk" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="EchoBot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="LINEBot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="line-bot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="line-bot" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="linecorp" type="462c0819:PsiDirectoryNode" />
+              <item name="line-bot-sdk" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="EchoBot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="LINEBot" type="462c0819:PsiDirectoryNode" />
+              <item name="EchoBot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="line-bot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="line-bot" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="linecorp" type="462c0819:PsiDirectoryNode" />
+              <item name="line-bot-sdk" type="462c0819:PsiDirectoryNode" />
+              <item name="line-bot-sdk-tiny" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -95,7 +678,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/xampp5.6/htdocs/lynx" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -121,25 +704,29 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542704689412</updated>
-      <workItem from="1542704691870" duration="350000" />
+      <workItem from="1542704691870" duration="2518000" />
+      <workItem from="1542762235634" duration="1839000" />
     </task>
+    <task id="LOCAL-00001" summary="test menu">
+      <created>1542766590563</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1542766590563</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="350000" />
+    <option name="totallyTimeSpent" value="4357000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.329718" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -147,10 +734,15 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,11 +751,32 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="test menu" />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/examples/EchoBot/src/LINEBot/EchoBot/Route.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/linecorp/line-bot-sdk/line-bot-sdk-tiny/LINEBotTiny.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="92" column="32" selection-start-line="92" selection-start-column="20" selection-end-line="92" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        <state relative-caret-position="318">
+          <caret line="35" column="52" lean-forward="true" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
         </state>
       </provider>
     </entry>
