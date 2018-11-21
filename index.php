@@ -28,7 +28,7 @@ foreach ($client->parseEvents() as $event) {
                 case 'text':
                     $request = $message['text'];
                     $model_nm = $request;
-                    error_log($event, 0);
+                    error_log(implode(' / ', $event), 0);
                     $client->replyMessage(messageContent($event,$model_nm));
                     break;
             }
