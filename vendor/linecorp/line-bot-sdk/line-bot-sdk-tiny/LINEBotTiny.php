@@ -115,7 +115,7 @@ class LINEBotTiny
         curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($message));
         curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 60);
         curl_setopt($ch, CURLOPT_TIMEOUT, 60);
-        curl_setopt($ch, CURLOPT_HTTPHEADER, array("Content-type:  application/json"));
+        curl_setopt($ch, CURLOPT_HTTPHEADER, $header);
 
         $response = curl_exec($ch);
 
