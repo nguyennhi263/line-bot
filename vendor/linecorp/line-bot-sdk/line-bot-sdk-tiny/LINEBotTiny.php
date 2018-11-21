@@ -110,7 +110,7 @@ class LINEBotTiny
         curl_setopt($curl_handle, CURLOPT_URL,'https://api.line.me/v2/bot/message/reply');
         curl_setopt($curl_handle, CURLOPT_CONNECTTIMEOUT, 2);
         curl_setopt($curl_handle, CURLOPT_RETURNTRANSFER, 1);
-        curl_setopt($curl_handle, CURLOPT_USERAGENT, $context);
+        curl_setopt($curl_handle, CURLOPT_POSTFIELDS, $context);
         $response = curl_exec($curl_handle);
         curl_close($curl_handle);
 
