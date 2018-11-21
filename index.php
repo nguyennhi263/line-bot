@@ -5,6 +5,19 @@ define("LINE_MESSAGING_API_CHANNEL_TOKEN",
 
 require __DIR__."/vendor/autoload.php";
 require_once (__DIR__.'/vendor /linecorp/line-bot-sdk/line-bot-sdk-tiny/LINEBotTiny.php');
+
+function messageContent($event, $text){
+    return [
+        'replyToken' => $event['replyToken'],
+        'messages' => [
+            [
+                'type' => 'text',
+                'text' => $text
+            ]
+        ]
+    ];
+}
+
 $client = new LINEBotTiny('oPJj2g+gPNOvLAtQz0CWyY6dkj/lIw86ZB2MtqPoWp5jN0EZDF4tXiIdR32FbpGYGQPvI6Wtxg0IwBPEyzUMyeVJdhhCyZo1cP1z+HQ/UV+9fHbbsUrueMZqrzMYkMNNuxoDTJXKWzM1PY6LurByvwdB04t89/1O/w1cDnyilFU=',
     'dcd4d682871e3013f2fe9f0cd14a3b0c');
 foreach ($client->parseEvents() as $event) {
@@ -18,18 +31,7 @@ foreach ($client->parseEvents() as $event) {
                      * then remove kanji , etc */
                     //$model_nm = Logic::validateTextSearch($request);
                     $model_nm = $request;
-                    $client->replyMessage(getText($event,$model_nm));
+                    $client->replyMessage(messageContent($event,$model_nm));
             }
     }
-}
-function getText($event, $text){
-    return array(
-        'replyToken' => $event['replyToken'],
-        'messages' => array(
-            array(
-                'type' => 'text',
-                'text' => $text
-            )
-        )
-    );
 }
