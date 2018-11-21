@@ -42,3 +42,4 @@ if (! Is_null ($events ['events'])) {
     }
 }
 echo "OK";
+?>
