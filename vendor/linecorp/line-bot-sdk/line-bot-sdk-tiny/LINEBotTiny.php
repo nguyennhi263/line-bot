@@ -105,7 +105,7 @@ class LINEBotTiny
             ),
         ));
 
-//        $response = file_get_contents('https://api.line.me/v2/bot/message/reply', false, $context);
+        $response = file_get_contents('https://api.line.me/v2/bot/message/reply', false, $context);
 
 
 //        $ch = curl_init();
