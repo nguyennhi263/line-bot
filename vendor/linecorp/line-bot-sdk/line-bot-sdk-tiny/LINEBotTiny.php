@@ -105,20 +105,20 @@ class LINEBotTiny
             ),
         ));
 
-        $response = file_get_contents('https://api.line.me/v2/bot/message/reply', false, $context);
+//        $response = file_get_contents('https://api.line.me/v2/bot/message/reply', false, $context);
 
 
-//        $ch = curl_init();
-//        curl_setopt($ch, CURLOPT_URL, 'https://api.line.me/v2/bot/message/reply');
-//        curl_setopt($ch, CURLOPT_POST, 1);
-//        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-//        curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($message));
-//        curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 60);
-//        curl_setopt($ch, CURLOPT_TIMEOUT, 60);
-//        curl_setopt($ch, CURLOPT_HTTPHEADER, $header);
-//
-//        $response = curl_exec($ch);
-//        curl_close($ch);
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, 'https://api.line.me/v2/bot/message/reply');
+        curl_setopt($ch, CURLOPT_POST, 1);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($message));
+        curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 60);
+        curl_setopt($ch, CURLOPT_TIMEOUT, 60);
+        curl_setopt($ch, CURLOPT_HTTPHEADER, $header);
+
+        $response = curl_exec($ch);
+        curl_close($ch);
 
         if (strpos($http_response_header[0], '200') === false) {
             http_response_code(500);
