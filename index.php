@@ -18,7 +18,7 @@ function messageContent($event, $text){
     ];
 }
 
-$client = new LINEBotTiny(LINE_MESSAGING_API_CHANNEL_TOKEN, LINE_MESSAGING_API_CHANNEL_SECRET);
+$client = new LINEBotTiny(CHANNEL_TOKEN, CHANNEL_SECRET);
 foreach ($client->parseEvents() as $event) {
     /** get user id */
     $userId = $event['source']['userId'];
