@@ -28,3 +28,4 @@ function messageContent(){
 
 $client = new LINEBotTiny(CHANNEL_TOKEN, CHANNEL_SECRET);
 $client->pushMessage(USER_ID,messageContent());
+?>

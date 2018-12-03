@@ -126,6 +126,36 @@ class LINEBotTiny
         }
     }
 
+    public function pushMessage($userID, $message){
+        $header = array(
+            "Content-Type: application/json",
+            'Authorization: Bearer ' . $this->channelAccessToken,
+        );
+
+        $body = array (
+            'to' => $userID,
+            'messages' => $message
+            );
+
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, 'https://api.line.me/v2/bot/message/push');
+        curl_setopt($ch, CURLOPT_POST, true);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($body));
+        curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 60);
+        curl_setopt($ch, CURLOPT_TIMEOUT, 60);
+        curl_setopt($ch, CURLOPT_HTTPHEADER, $header);
+
+        $response = curl_exec($ch);
+        $response_http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+        curl_close($ch);
+
+        if ($response_http_code != 200) {
+            http_response_code(500);
+            error_log("Request failed: " . json_encode($response));
+        }
+    }
+
     private function sign($body)
     {
         $hash = hash_hmac('sha256', $body, $this->channelSecret, true);
