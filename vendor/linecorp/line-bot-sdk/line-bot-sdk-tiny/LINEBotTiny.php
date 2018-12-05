@@ -186,10 +186,14 @@ class LINEBotTiny
     }
 
     public function getUserInfo($accessToken) {
-        
+        $header = array(
+            "Content-Type: application/json",
+            'Authorization: Bearer ' . $accessToken,
+        );
+
         $ch = curl_init();
 
-        curl_setopt($ch, CURLOPT_HTTPHEADER, array('Authorization: Bearer ' . $accessToken));
+        curl_setopt($ch, CURLOPT_HTTPHEADER, $header);
         curl_setopt($ch, CURLOPT_URL, 'https://api.line.me/v2/profile');
         curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'GET');
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
