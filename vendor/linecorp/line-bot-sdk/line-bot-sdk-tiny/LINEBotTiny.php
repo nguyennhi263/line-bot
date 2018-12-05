@@ -155,6 +155,35 @@ class LINEBotTiny
             error_log("Request failed: " . json_encode($response));
         }
     }
+    
+    public function getUserToken($code, $url){
+        $header = array(
+            "Content-Type: application/x-www-form-urlencoded"
+        );
+
+        $body = array(
+            'grant_type'    => 'authorization_code',
+            'code'          => $code,
+            'redirect_uri'  => $url,
+            'client_id'     => $this->channelAccessToken,
+            'client_secret' => $this->channelSecret
+        );
+
+        $ch = curl_init();
+
+        curl_setopt($ch, CURLOPT_HTTPHEADER, $header);
+        curl_setopt($ch, CURLOPT_URL, 'https://api.line.me/oauth2/v2.1/token');
+        curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'POST');
+        curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($body));
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+
+        $response = curl_exec($ch);
+        curl_close($ch);
+
+        $json = json_decode($response);
+        $accessToken = $json->access_token;
+        return $accessToken;
+    }
 
     private function sign($body)
     {
