@@ -182,7 +182,7 @@ class LINEBotTiny
 
         $json = json_decode($response);
         $accessToken = $json->access_token;
-        return $accessToken;
+        return (is_null($accessToken))? false :$accessToken;
     }
 
     public function getUserInfo($accessToken) {
@@ -202,6 +202,37 @@ class LINEBotTiny
         curl_close($ch);
 
         $json = json_decode($response);
+        $line_ID = $json->userId;
+        session_start();
+        $_SESSION["Line_ID"] = $line_ID;
+        return $json;
+    }
+
+    public function getUserInfomation($code, $url) {
+
+        $token =  $client->getUserToken($_GET['code'],$url);
+
+        if (!$token) {
+            return false;
+        }
+
+        $header = array(
+            "Content-Type: application/json",
+            'Authorization: Bearer ' . $accessToken,
+        );
+
+        $ch = curl_init();
+
+        curl_setopt($ch, CURLOPT_HTTPHEADER, $header);
+        curl_setopt($ch, CURLOPT_URL, 'https://api.line.me/v2/profile');
+        curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'GET');
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+
+        $response = curl_exec($ch);
+        curl_close($ch);
+
+        $json = json_decode($response);
+
         return $json;
     }
 

@@ -21,4 +21,8 @@ if (isset($_GET['code'])) {
    var_dump($client->getUserInfo($token));
 }
 
+if (isset($_SESSION['Line_ID'])) {
+    echo "SESSION ". $_SESSION['Line_ID'];
+}
+
     ?>
