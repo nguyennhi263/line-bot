@@ -18,7 +18,7 @@ $url = "https://nguyennhi263.herokuapp.com/auth.php";
 if (isset($_GET['code'])) {
    $token =  $client->getUserToken($_GET['code'],$url);
    var_dump($token);
-//   var_dump($client->getUserInfo($token));
+   var_dump($client->getUserInfo($token));
 }
 
     ?>
