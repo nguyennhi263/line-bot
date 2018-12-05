@@ -209,9 +209,9 @@ class LINEBotTiny
 
     public function getUserInfomation($code, $url) {
 
-        $token =  $client->getUserToken($_GET['code'],$url);
+        $accessToken =  $client->getUserToken($_GET['code'],$url);
 
-        if (!$token) {
+        if (!$accessToken) {
             return false;
         }
 
