@@ -24,5 +24,8 @@ if (isset($_GET['code'])) {
 if (isset($_SESSION['Line_ID'])) {
     echo "SESSION ". $_SESSION['Line_ID'];
 }
+else {
+    echo "SESSION FAIL";
+}
 
     ?>
