@@ -209,7 +209,7 @@ class LINEBotTiny
 
     public function getUserInfomation($code, $url) {
 
-        $accessToken =  $client->getUserToken($code,$url);
+        $accessToken =  $this->getUserToken($code,$url);
 
         if (!$accessToken) {
             return false;
