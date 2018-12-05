@@ -203,7 +203,6 @@ class LINEBotTiny
 
         $json = json_decode($response);
         $line_ID = $json->userId;
-        session_start();
         $_SESSION["Line_ID"] = $line_ID;
         return $json;
     }
