@@ -182,7 +182,7 @@ class LINEBotTiny
 
         $json = json_decode($response);
         $accessToken = $json->access_token;
-        return $accessToken;
+        return $json;
     }
 
     public function getUserInfo($accessToken) {
