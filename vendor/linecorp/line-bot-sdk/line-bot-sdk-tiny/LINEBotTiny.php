@@ -231,8 +231,8 @@ class LINEBotTiny
         curl_close($ch);
 
         $json = json_decode($response);
-
-        return $json;
+        $userID = $json->userId;
+        return (is_null($userID))? false :$userID;
     }
 
     private function sign($body)
