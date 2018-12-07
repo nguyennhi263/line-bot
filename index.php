@@ -238,6 +238,255 @@ $message_carousel = array (
     'contents' => $carousel
 );
 
+$test_message = array (
+    'type' => 'flex',
+    'altText' => 'Example buttons template',
+    'contents' =>
+        array (
+            'type' => 'carousel',
+            'contents' =>
+                array (
+                    0 =>
+                        array (
+                            'type' => 'bubble',
+                            'styles' =>
+                                array (
+                                    'footer' =>
+                                        array (
+                                            'separator' => true,
+                                        ),
+                                ),
+                            'body' =>
+                                array (
+                                    'type' => 'box',
+                                    'layout' => 'vertical',
+                                    'contents' =>
+                                        array (
+                                            0 =>
+                                                array (
+                                                    'type' => 'text',
+                                                    'text' => '20円パチンコ',
+                                                    'weight' => 'bold',
+                                                    'color' => '#1DB446',
+                                                    'size' => 'sm',
+                                                ),
+                                            1 =>
+                                                array (
+                                                    'type' => 'text',
+                                                    'text' => '機種:20円スロット',
+                                                    'weight' => 'bold',
+                                                    'margin' => 'md',
+                                                    'size' => 'xxl',
+                                                ),
+                                            2 =>
+                                                array (
+                                                    'type' => 'separator',
+                                                    'margin' => 'xxl',
+                                                ),
+                                            3 =>
+                                                array (
+                                                    'type' => 'box',
+                                                    'layout' => 'vertical',
+                                                    'margin' => 'xxl',
+                                                    'spacing' => 'sm',
+                                                    'contents' =>
+                                                        array (
+                                                            0 =>
+                                                                array (
+                                                                    'type' => 'box',
+                                                                    'layout' => 'horizontal',
+                                                                    'contents' =>
+                                                                        array (
+                                                                            0 =>
+                                                                                array (
+                                                                                    'type' => 'text',
+                                                                                    'text' => '検索条件',
+                                                                                    'size' => 'xs',
+                                                                                    'color' => '#aaaaaa',
+                                                                                    'wrap' => true,
+                                                                                    'flex' => 0,
+                                                                                ),
+                                                                        ),
+                                                                ),
+                                                            1 =>
+                                                                array (
+                                                                    'type' => 'separator',
+                                                                    'margin' => 'xxl',
+                                                                ),
+                                                            2 =>
+                                                                array (
+                                                                    'type' => 'box',
+                                                                    'layout' => 'horizontal',
+                                                                    'margin' => 'xxl',
+                                                                    'contents' =>
+                                                                        array (
+                                                                            0 =>
+                                                                                array (
+                                                                                    'type' => 'text',
+                                                                                    'text' => ' ',
+                                                                                    'size' => 'sm',
+                                                                                    'color' => '#555555',
+                                                                                ),
+                                                                            1 =>
+                                                                                array (
+                                                                                    'type' => 'text',
+                                                                                    'text' => ' ',
+                                                                                    'size' => 'sm',
+                                                                                    'color' => '#111111',
+                                                                                    'align' => 'end',
+                                                                                ),
+                                                                        ),
+                                                                ),
+                                                            3 =>
+                                                                array (
+                                                                    'type' => 'box',
+                                                                    'layout' => 'horizontal',
+                                                                    'contents' =>
+                                                                        array (
+                                                                            0 =>
+                                                                                array (
+                                                                                    'type' => 'text',
+                                                                                    'text' => ' ',
+                                                                                    'size' => 'sm',
+                                                                                    'color' => '#555555',
+                                                                                ),
+                                                                            1 =>
+                                                                                array (
+                                                                                    'type' => 'text',
+                                                                                    'text' => ' ',
+                                                                                    'size' => 'sm',
+                                                                                    'color' => '#111111',
+                                                                                    'align' => 'end',
+                                                                                ),
+                                                                        ),
+                                                                ),
+                                                        ),
+                                                ),
+                                        ),
+                                ),
+                        ),
+                    1 =>
+                        array (
+                            'type' => 'bubble',
+                            'styles' =>
+                                array (
+                                    'footer' =>
+                                        array (
+                                            'separator' => true,
+                                        ),
+                                ),
+                            'body' =>
+                                array (
+                                    'type' => 'box',
+                                    'layout' => 'vertical',
+                                    'contents' =>
+                                        array (
+                                            0 =>
+                                                array (
+                                                    'type' => 'text',
+                                                    'text' => '20円パチンコ',
+                                                    'weight' => 'bold',
+                                                    'color' => '#1DB446',
+                                                    'size' => 'sm',
+                                                ),
+                                            1 =>
+                                                array (
+                                                    'type' => 'text',
+                                                    'text' => '機種:20円スロット',
+                                                    'weight' => 'bold',
+                                                    'margin' => 'md',
+                                                    'size' => 'xxl',
+                                                ),
+                                            2 =>
+                                                array (
+                                                    'type' => 'separator',
+                                                    'margin' => 'xxl',
+                                                ),
+                                            3 =>
+                                                array (
+                                                    'type' => 'box',
+                                                    'layout' => 'vertical',
+                                                    'margin' => 'xxl',
+                                                    'spacing' => 'sm',
+                                                    'contents' =>
+                                                        array (
+                                                            0 =>
+                                                                array (
+                                                                    'type' => 'box',
+                                                                    'layout' => 'horizontal',
+                                                                    'contents' =>
+                                                                        array (
+                                                                            0 =>
+                                                                                array (
+                                                                                    'type' => 'text',
+                                                                                    'text' => '検索条件',
+                                                                                    'size' => 'xs',
+                                                                                    'color' => '#aaaaaa',
+                                                                                    'wrap' => true,
+                                                                                    'flex' => 0,
+                                                                                ),
+                                                                        ),
+                                                                ),
+                                                            1 =>
+                                                                array (
+                                                                    'type' => 'separator',
+                                                                    'margin' => 'xxl',
+                                                                ),
+                                                            2 =>
+                                                                array (
+                                                                    'type' => 'box',
+                                                                    'layout' => 'horizontal',
+                                                                    'margin' => 'xxl',
+                                                                    'contents' =>
+                                                                        array (
+                                                                            0 =>
+                                                                                array (
+                                                                                    'type' => 'text',
+                                                                                    'text' => ' ',
+                                                                                    'size' => 'sm',
+                                                                                    'color' => '#555555',
+                                                                                ),
+                                                                            1 =>
+                                                                                array (
+                                                                                    'type' => 'text',
+                                                                                    'text' => ' ',
+                                                                                    'size' => 'sm',
+                                                                                    'color' => '#111111',
+                                                                                    'align' => 'end',
+                                                                                ),
+                                                                        ),
+                                                                ),
+                                                            3 =>
+                                                                array (
+                                                                    'type' => 'box',
+                                                                    'layout' => 'horizontal',
+                                                                    'contents' =>
+                                                                        array (
+                                                                            0 =>
+                                                                                array (
+                                                                                    'type' => 'text',
+                                                                                    'text' => ' ',
+                                                                                    'size' => 'sm',
+                                                                                    'color' => '#555555',
+                                                                                ),
+                                                                            1 =>
+                                                                                array (
+                                                                                    'type' => 'text',
+                                                                                    'text' => ' ',
+                                                                                    'size' => 'sm',
+                                                                                    'color' => '#111111',
+                                                                                    'align' => 'end',
+                                                                                ),
+                                                                        ),
+                                                                ),
+                                                        ),
+                                                ),
+                                        ),
+                                ),
+                        ),
+                ),
+        ),
+);
 $client = new LINEBotTiny(CHANNEL_TOKEN, CHANNEL_SECRET);
 foreach ($client->parseEvents() as $event) {
     /** get user id */
@@ -251,7 +500,7 @@ foreach ($client->parseEvents() as $event) {
                     $request = $message['text'];
                     $model_nm = $request;
                     error_log(implode(' / ', $event), 0);
-                    $client->replyMessage(messageContent2($event,$message_carousel));
+                    $client->replyMessage(messageContent2($event,$test_message));
                     break;
             }
     }
