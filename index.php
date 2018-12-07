@@ -233,9 +233,9 @@ $carousel = array(
 );
 
 $message_carousel = array (
-    "type" => "template",
-    "altText" => "this is a carousel template",
-  "template" => $carousel
+    'type' => 'flex',
+    'altText' => 'Example buttons template',
+    'contents' => $carousel
 );
 
 $client = new LINEBotTiny(CHANNEL_TOKEN, CHANNEL_SECRET);
