@@ -232,6 +232,12 @@ $carousel = array(
     ]
 );
 
+$message_carousel = array (
+    "type" => "template",
+    "altText" => "this is a carousel template",
+  "template" => $carousel
+);
+
 $client = new LINEBotTiny(CHANNEL_TOKEN, CHANNEL_SECRET);
 foreach ($client->parseEvents() as $event) {
     /** get user id */
@@ -245,7 +251,7 @@ foreach ($client->parseEvents() as $event) {
                     $request = $message['text'];
                     $model_nm = $request;
                     error_log(implode(' / ', $event), 0);
-                    $client->replyMessage(messageContent2($event,$carousel));
+                    $client->replyMessage(messageContent2($event,$message_carousel));
                     break;
             }
     }
