@@ -18,6 +18,15 @@ function messageContent($event, $text){
     ];
 }
 
+function messageContent2($event, $text){
+    return [
+        'replyToken' => $event['replyToken'],
+        'messages' => [
+            $text
+        ]
+    ];
+}
+
 $body = array (
     'type' => 'flex',
     'altText' => 'Example buttons template',
@@ -133,7 +142,7 @@ foreach ($client->parseEvents() as $event) {
                     $request = $message['text'];
                     $model_nm = $request;
                     error_log(implode(' / ', $event), 0);
-                    $client->replyMessage(messageContent($event,$body));
+                    $client->replyMessage(messageContent2($event,$body));
                     break;
             }
     }
