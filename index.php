@@ -486,6 +486,18 @@ $test_message = array (
                 ),
         ),
 );
+
+//{
+//    "type": "image",
+//    "originalContentUrl": "https://example.com/original.jpg",
+//    "previewImageUrl": "https://example.com/preview.jpg"
+//}
+
+$test_image = array (
+    'type' => 'image',
+    'originalContentUrl' => 'https://fitness-music.jp/user_data/packages/default/img/static/line/main.jpg',
+    'previewImageUrl' => 'https://fitness-music.jp/user_data/packages/default/img/static/line/main.jpg'
+);
 $client = new LINEBotTiny(CHANNEL_TOKEN, CHANNEL_SECRET);
 foreach ($client->parseEvents() as $event) {
     /** get user id */
@@ -499,7 +511,7 @@ foreach ($client->parseEvents() as $event) {
                     $request = $message['text'];
                     $model_nm = $request;
                     error_log(implode(' / ', $event), 0);
-                    $client->replyMessage(messageContent2($event,$test_message));
+                    $client->replyMessage(messageContent2($event,$test_image));
                     break;
             }
     }
