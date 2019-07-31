@@ -1,8 +1,7 @@
 <?php // callback.php
-define("CHANNEL_SECRET", '908d76b840a42e179b39ca6e5567b02f');
+define("CHANNEL_SECRET", '4ee6adcd6a2f1fc3e3d7486eb91bbf3f');
 define("CHANNEL_TOKEN",
-    'V5+Lhll0yWeFPAgwZ45hYgNRZHkC2o2iF7jMcA0sSIF5OSkabciDRbl9Xhz+p/qHGCU1lPrI5w5FDp1WE7NMKerOjFObwJZf8P7VLpR8bW+tEzoIfHtIOQVfYvu+61WzEubNYKgPunx4PmnnsXvw/wdB04t89/1O/w1cDnyilFU=');
-define('MENU_ID','richmenu-62b3fa1c49c51feef6ea4548a100e40f');
+    'Mp4x/jdEW8iWmdEDO9OX88aigc+oHmLHFRwC7Nf8JqYuP1x7p7LhIK/ZtKNwV0k9GQPvI6Wtxg0IwBPEyzUMyeVJdhhCyZo1cP1z+HQ/UV+IEnBHAYtqQDUKguj5F/n9AM4ID2J6L9olHstD5Z+rKQdB04t89/1O/w1cDnyilFU=');
 require __DIR__."/vendor/autoload.php";
 require_once (__DIR__.'/vendor/linecorp/line-bot-sdk/line-bot-sdk-tiny/LINEBotTiny.php');
 
