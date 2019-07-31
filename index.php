@@ -495,8 +495,8 @@ $test_message = array (
 
 $test_image = array (
     'type' => 'image',
-    'originalContentUrl' => 'https://fitness-music.jp/user_data/packages/default/img/static/line/main.jpg',
-    'previewImageUrl' => 'https://fitness-music.jp/user_data/packages/default/img/static/line/main.jpg'
+    'originalContentUrl' => 'https://p-ken.jp/images/portal/sp/kokaio/top/topgra.png',
+    'previewImageUrl' => 'https://p-ken.jp/images/portal/sp/kokaio/top/topgra.png'
 );
 $client = new LINEBotTiny(CHANNEL_TOKEN, CHANNEL_SECRET);
 foreach ($client->parseEvents() as $event) {
