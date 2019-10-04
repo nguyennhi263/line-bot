@@ -1,28 +1,26 @@
-<?php
-echo '[
-  {
-    \"id\": \"1\",
-    \"promotionId\": \"1\",
-    \"title\": \" Item 1\",
-    \"image_url\": \"https://smartslider3.com/wp-content/uploads/slider132/image-slider-with-thumbnail2.jpeg\",
-    \"type\": \"1\",
-    \"content\": \"abc content\"
-  },
-  {
-    \"id\": \"2\",
-    \"promotionId\": \"1\",
-    \"title\": \" Item 2\",
-    \"image_url\": \"https://smartslider3.com/wp-content/uploads/slider132/image-slider-with-thumbnail1.jpeg\",
-    \"type\": \"1\",
-    \"content\": \"abc content\"
-  },
-  {
-    \"id\": \"3\",
-    \"promotionId\": \"1\",
-    \"title\": \" Item 3\",
-    \"image_url\": \"https://smartslider3.com/wp-content/uploads/slider132/image-slider-with-thumbnail4.jpeg\",
-    \"type\": \"1\",
-    \"content\": \"abc content\"
-  }
-]';
-?>
+[
+{
+"id": "1",
+"promotionId": "1",
+"title": " Item 1",
+"image_url": "https://smartslider3.com/wp-content/uploads/slider132/image-slider-with-thumbnail2.jpeg",
+"type": "1",
+"content": "abc content"
+},
+{
+"id": "2",
+"promotionId": "1",
+"title": " Item 2",
+"image_url": "https://smartslider3.com/wp-content/uploads/slider132/image-slider-with-thumbnail1.jpeg",
+"type": "1",
+"content": "abc content"
+},
+{
+"id": "3",
+"promotionId": "1",
+"title": " Item 3",
+"image_url": "https://smartslider3.com/wp-content/uploads/slider132/image-slider-with-thumbnail4.jpeg",
+"type": "1",
+"content": "abc content"
+}
+]
